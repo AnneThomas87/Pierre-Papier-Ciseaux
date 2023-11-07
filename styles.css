@@ -1,0 +1,126 @@
+@font-face {
+    font-family: "Agbalumo";
+    src: url('img/Agbalumo/Agbalumo-Regular.ttf') format('Regular.ttf'), url('img/Agbalumo/Agbalumo-Regular.ttf')
+    format('truetype')
+}
+
+
+body {
+    font-family: 'Agbalumo';
+    text-align: center;
+    /* background-color:rgb(145, 69, 109); */
+    background-image: url(Asset/asset/PPC.jpg) ;
+   background-repeat: no-repeat;
+   background-size: cover;
+    font-size: large;
+    color: #ffffff;
+    text-shadow:
+    1px 1px 2px black,
+    0 0 1em blue,
+    0 0 0.2em blue;
+    
+}
+
+.playername{
+  
+    width: 250px;
+    height: 25px;
+    border-radius: 20px;
+    
+   }
+
+h2{
+  
+  margin-top: 50px;  
+
+}
+.game {
+    margin-top: 50px;
+   
+}
+
+button {
+    font-size: 18px;
+    margin: 20px;
+    width: 200px;
+    height: 250px;
+    border-radius: 20px;
+    
+}
+
+#result {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+   border-style: groove;
+   height: 40px;
+   border-radius: 15px;
+   margin-top: 50px;
+   width: 800px;
+   margin-left: 25%;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.score{
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+   border-style: groove;
+   height: 140px;
+   width: 300px;
+   border-radius: 15px;
+   margin-top: 50px;
+   margin-left: 42.5%;
+}
+img{
+    margin-top: 30px;
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+    margin-left: 50px;
+    box-shadow:  5px 5px 5px black;
+}
+@media screen and (max-width: 375px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .select{
+        width: 200px;
+        height: 200px;
+        margin-right: 50px;
+    }
+    #result{
+        height: 90px;
+    }
+}
+@media screen and (max-width: 475px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .select{
+        width: 200px;
+        height: 200px;
+        margin-right: 50px;
+    }
+    #result{
+        height: 90px;
+    }
+}
+@media screen and (max-width: 575px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .select{
+        width: 200px;
+        height: 200px;
+        margin-right: 50px;
+    }
+    #result{
+        height: 90px;
+    }
+}

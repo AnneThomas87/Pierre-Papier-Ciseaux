@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agbalumo&display=swap" rel="stylesheet">
+    <title>Pierre, Papier, Ciseaux</title>
+</head>
+<body>
+    <h1>Chifoumi</h1>
+    <h2>Fais ton choix entre Pierre (👊), Papier (✋) et Ciseaux (✌)</h2>
+
+    <div class="player-name">
+        <label for="playerName">Nom du joueur :</label>
+        <input class="playername" type="text" id="playerName">
+    </div>
+
+    <div class="container">
+        <div>
+            <img class="select" id="Pierre" src="Asset/asset/Pierre.png" alt="">
+        </div>
+
+        <div>
+            <img class="select" id="Papier" src="Asset/asset/Feuille.png" alt="">
+        </div>
+
+        <div>
+            <img class="select" id="Ciseaux" src="Asset/asset/Ciseaux.png" alt="">
+        </div>
+    </div>
+
+    <p id="result">Attendez une action...</div>
+
+    <div class="score">
+        <p id="playerScore">Score de Joueur: 0</p>
+        <p id="computerScore">Score de l'ordinateur: 0</p>
+    
+</p>
+    <audio id="winSound" hidden>
+        <source src="Asset/win.mp3" type="audio/mpeg">
+    </audio>
+    
+    <audio id="loseSound" hidden>
+        <source src="Asset/lose.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
